@@ -1,1 +1,2 @@
-# The Storyblok Nuxt Ultimate Tutorial: Part 1
+# HST 24 with Nuxt and Storyblok
+run npm run dev-ssl
