@@ -1,5 +1,5 @@
 <template>
-  <div v-editable="blok">
+  <div v-editable="blok" id="events">
     <div
       class="text-center uppercase font-extrabold text-5xl py-20 flex justify-center"
     >

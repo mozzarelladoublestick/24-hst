@@ -2,7 +2,6 @@
   <div
     v-editable="blok"
     class="flex flex-col justify-center items-center max-w-5xl mx-auto text-center py-24 relative"
-    id="events"
   >
     <div class="absolute w-px h-44 bg-white top-6 inset-1/4">
       <div

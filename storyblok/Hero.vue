@@ -1,11 +1,17 @@
 <template>
-  <div v-editable="blok" class="relative pt-24">
-    <img src="../icons/logo.png" class="absolute left-1/3 z-0 w-96 top-20" />
+  <div
+    v-editable="blok"
+    class="relative pt-32 w-full m-0 bg-cover hero-gradient"
+  >
+    <img
+      src="../icons/2024-03_oesm_hst24_logo_2c-weiss-rot.svg"
+      class="absolute left-1/3 z-0 w-96 top-20"
+    />
     <div
-      class="uppercase h-screen py-64 text-8xl text-white font-bold text-center z-50"
+      class="uppercase h-screen py-64 text-8xl text-white font-bold text-center z-50 relative"
     >
       {{ blok.headline }}
-      <p class="my-8 z-50" id="scramble">{{ blok.word_1 }}</p>
+      <p class="my-16 z-50" id="scramble">{{ blok.word_1 }}</p>
     </div>
   </div>
 </template>
