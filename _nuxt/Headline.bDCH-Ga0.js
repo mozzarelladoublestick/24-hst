@@ -1,0 +1,1 @@
+import{T as s,U as a,t as o,v as c,x as i,y as l}from"./entry.JXAC66m7.js";const r={class:"my-12"},n={class:"text-orange text-center text-5xl uppercase font-bold"},p={__name:"Headline",props:{blok:Object},setup(e){return(d,_)=>{const t=s("editable");return a((o(),c("div",r,[i("h3",n,l(e.blok.headline),1)])),[[t,e.blok]])}}};export{p as default};

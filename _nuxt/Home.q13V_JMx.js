@@ -1,0 +1,1 @@
+import{T as o,U as c,t as s,v as a}from"./entry.JXAC66m7.js";const l={class:"py-32 text-6xl text-[#50b0ae] font-bold text-center"},_={__name:"Home",props:{blok:Object},setup(e){return(r,i)=>{const t=o("editable");return c((s(),a("div",l,null,512)),[[t,e.blok]])}}};export{_ as default};
