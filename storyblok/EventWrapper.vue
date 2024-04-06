@@ -1,11 +1,6 @@
 <template>
   <div v-editable="blok" id="events">
     <div
-      class="text-center uppercase font-extrabold text-5xl py-20 flex justify-center"
-    >
-      {{ blok.headline }}
-    </div>
-    <div
       class="flex mx-auto justify-between text-center text-extrabold uppercase text-orange items-center px-24 max-w-5xl"
     >
       <div v-for="city in cities">
