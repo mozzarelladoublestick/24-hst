@@ -28,7 +28,9 @@
     <h5 class="text-xl md:text-3xl font-extralight">
       {{ blok.description }}
     </h5>
-    <h4 @click="toggleMore">more</h4>
+    <div @click="toggleMore"  class="flex cursor-pointer">
+    <h4 class="text-xl uppercase text-orange my-4">more</h4><img src="../icons/chevron.svg" class="w-6 mx-4" :class="{'rotate-180':!isVisible}"></img>
+  </div>
     <h5 v-show="isVisible" class="font-light text-lg">
       {{ blok.more }}
     </h5>

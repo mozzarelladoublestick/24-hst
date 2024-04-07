@@ -5,14 +5,14 @@
   >
     <img
       src="../icons/2024-03_oesm_hst24_logo_2c-weiss-rot.svg"
-      class="absolute left-4 md:left-1/3 z-0 w-64 md-w-96 top-6 md:top-20"
+      class="absolute left-4 md:left-1/3 z-0 w-64 md:w-96 top-6 md:top-20"
     />
 
     <div
       class="container uppercase text-4xl md:text-8xl text-white font-bold text-center z-30 relative"
     >
       <h1>{{ blok.headline }}</h1>
-      <p class="my-2 md:my-8 z-30" id="scramble">{{ blok.word_1 }}</p>
+      <p class="my-2 z-30" id="scramble">{{ blok.word_1 }}</p>
     </div>
   </div>
   <div class="absolute"></div>

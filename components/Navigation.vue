@@ -6,8 +6,7 @@
         </div>
        <div @click="goTo('#events')">EVENTS</div>
         <div  @click="goTo('#speaker')">SPEAKER</div>
-        <div>ÜBER UNS</div>
-        <div>KONTAKT</div>
+        <div @click="goTo('#aboutus')">ÜBER UNS</div>
         </div>
 
     </div>

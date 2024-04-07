@@ -19,8 +19,7 @@
     >
       <h4 @click="goTo('#events')" class="my-4">EVENTS</h4>
       <h4 @click="goTo('#speaker')" class="my-4">SPEAKER</h4>
-      <h4 class="my-4">ÜBER UNS</h4>
-      <h4 class="my-4">KONTAKT</h4>
+      <h4 @click="goTo('#aboutus')" class="my-4">ÜBER UNS</h4>
     </div>
     <StoryblokComponent
       v-for="blok in blok.body"

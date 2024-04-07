@@ -7,7 +7,7 @@
         src="../icons/compass.svg"
         class="icon absolute right-0 z-0 w-80 top-96 opacity-80"
       />
-      <select class="block md:hodden" @change="setCity($event.target.value)">
+      <select class="block md:hidden" @change="setCity($event.target.value)">
         <option
           v-for="city in cities"
           :value="city"
