@@ -16,19 +16,7 @@ html {
 .button {
   @apply bg-orange uppercase font-bold max-w-fit py-6 px-12;
 }
-.pulse {
-  @keyframes pulse {
-    0% {
-      transform: scale(1);
-    }
-    50% {
-      transform: scale(1.1);
-    }
-    100% {
-      transform: scale(1);
-    }
-  }
-}
+
 select {
   @apply bg-black m-4 p-4 border-none text-xl;
 }
