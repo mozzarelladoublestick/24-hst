@@ -1,9 +1,24 @@
 <template>
   <div v-editable="blok" id="events">
     <div
-      class="flex mx-auto justify-between text-center text-extrabold uppercase text-orange items-center px-24 max-w-5xl"
+      class="relative md:flex mx-auto justify-between text-center text-extrabold uppercase text-orange items-center px-24 max-w-5xl"
     >
-      <div v-for="city in cities">
+      <img
+        src="../icons/compass.svg"
+        class="icon absolute right-0 z-0 w-80 top-96 opacity-80"
+      />
+      <select class="block md:hodden" @change="setCity($event.target.value)">
+        <option
+          v-for="city in cities"
+          :value="city"
+          :key="city"
+          class="text-xl"
+        >
+          {{ city }}
+        </option>
+      </select>
+
+      <div class="hidden md:block" v-for="city in cities">
         <div
           @click="setCity(city)"
           class="cursor-pointer hover:blur-sm"
@@ -29,5 +44,25 @@ const cities = ["vienna", "linz", "salzburg", "graz", "innsbruck"];
 function setCity(city) {
   activeCity.value = city;
 }
+import { gsap } from "gsap";
+
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+onMounted(() => {
+  gsap.registerPlugin(ScrollTrigger);
+
+  gsap.to(".icon", {
+    scrollTrigger: {
+      trigger: ".icon",
+      toggleActions: "restart pause reverse reverse",
+      start: "top center",
+      scrub: 1,
+      pin: true,
+    }, // start animation when ".box" enters the viewport
+    rotation: 360,
+    // x: 1000,
+    // duration: 2,
+  });
+});
 console.log(props.blok);
 </script>

@@ -1,17 +1,17 @@
 <template>
-  <div v-editable="blok" class="flex container justify-center">
-    <div class="flex flex-col mx-6">
-      <h2 class="text-orange font-extrabold text-4xl mb-4">
+  <div v-editable="blok" class="flex flex-col md:flex-row container justify-center">
+    <div class="flex flex-col md:mx-6">
+      <h2 class="text-orange font-extrabold text-2xl md:text-4xl mb-4">
         {{ blok.headline }}
       </h2>
-      <h5 class="font-light mb-4 text-xl">
+      <h5 class="font-extralight mb-4 text-lg md:text-xl">
         {{ blok.description }}
       </h5>
-      <a :href="url" class="button">
+      <a :href="url" class="button md:m-0 mb-6">
         {{ blok.buttontext }}
       </a>
     </div>
-    <img :src="blok.image.filename" class="w-1/2 mx-6 object-cover filter grayscale"></img>
+    <img :src="blok.image.filename" class="w-full md:w-1/2 md:mx-6 object-cover filter grayscale"></img>
   </div>
 </template>
 

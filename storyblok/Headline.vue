@@ -1,6 +1,8 @@
 <template>
   <div v-editable="blok" class="my-12">
-    <h3 class="text-white text-center text-5xl uppercase font-bold">
+    <h3
+      class="text-white text-center text-3xl md:text-5xl uppercase font-bold container"
+    >
       {{ blok.headline }}
     </h3>
   </div>
