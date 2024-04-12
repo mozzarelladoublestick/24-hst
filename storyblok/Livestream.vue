@@ -1,7 +1,7 @@
 <template>
   <div
     v-editable="blok"
-    class="flex md:flex-row flex-col justify-center containers my-32"
+    class="flex md:flex-row flex-col justify-center items-center containers my-32"
   >
     <div class="flex flex-col mx-6">
       <h3
@@ -9,9 +9,9 @@
       >
         {{ blok.headline }}
       </h3>
-      <h5 class="text-xl mb-4 md:mb-0">{{ text }}</h5>
+      <h4 class="text-xl mb-4 md:mb-0 font-extralight">{{ text }}</h4>
     </div>
-    <button class="button mx-6 pulse">{{ buttontext }}</button>
+    <a :href="url" class="button mx-6">{{ buttontext }}</a>
   </div>
 </template>
 
@@ -19,6 +19,7 @@
 const props = defineProps({ blok: Object });
 const buttontext = ref("");
 const text = ref("");
+const url = ref("");
 if (props.blok.isLive) {
   buttontext.value = props.blok.buttontext;
   text.value = props.blok.text;
@@ -26,4 +27,7 @@ if (props.blok.isLive) {
   buttontext.value = props.blok.alternativebuttontext;
   text.value = props.blok.alternativetext;
 }
+onMounted(() => {
+  url.value = props.blok.link.url;
+});
 </script>

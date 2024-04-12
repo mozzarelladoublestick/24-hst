@@ -6,9 +6,9 @@
     <h2 class="text-2xl md:text-4xl text-white font-medium  max-w-5xl text-center md:text-left md:w-24">
       {{ blok.name }}
     </h2>
-    <h3 class="text-lg md:text-2xl mt-4 font-extralight max-w-2xl text-center md:text-left">
+    <h5 class="text-lg md:text-2xl mt-4 font-extralight max-w-2xl text-center md:text-left mb-2">
       {{ blok.description }}
-    </h3>
+    </h5>
     <h4 class="text-orange">
       <a :href="url">
       {{ blok.linktext }}
@@ -24,6 +24,5 @@ const props=defineProps({ blok: Object });
 const url=ref("");
 onMounted(() => {
 url.value=props.blok.link.url;
-console.log(url.value);
 });
 </script>

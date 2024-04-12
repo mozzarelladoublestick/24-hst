@@ -4,7 +4,7 @@
       <h2 class="text-orange font-extrabold text-2xl md:text-3xl mb-4">
         {{ blok.headline }}
       </h2>
-      <h5 class="font-extralight mb-4 text-lg md:text-xl">
+      <h5 class="font-extralight mb-4 text-lg md:text-2xl">
         {{ blok.description }}
       </h5>
       <a :href="url" class="button md:m-0 mb-6">

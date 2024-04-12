@@ -31,7 +31,7 @@
     <div @click="toggleMore"  class="flex cursor-pointer">
     <h4 class="text-xl uppercase text-orange my-4">mehr</h4><img src="../icons/chevron.svg" class="w-6 mx-4" :class="{'rotate-180':!isVisible}"></img>
   </div>
-    <h5 v-show="isVisible" class="font-light text-lg">
+    <h5 v-show="isVisible" class="font-light text-xl">
       {{ blok.more }}
     </h5>
   </div>
