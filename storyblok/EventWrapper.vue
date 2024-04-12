@@ -28,6 +28,12 @@
         </div>
       </div>
     </div>
+    <h3
+      class="py-24 text-3xl container text-center font-light"
+      v-if="blok[activeCity].length == 0"
+    >
+      {{ blok.noevents }}
+    </h3>
     <StoryblokComponent
       v-for="event in blok[activeCity]"
       :key="event._uid"
@@ -39,8 +45,8 @@
 <script setup>
 import { ref, computed } from "vue";
 const props = defineProps({ blok: Object });
-const activeCity = ref("vienna");
-const cities = ["vienna", "linz", "salzburg", "graz", "innsbruck"];
+const activeCity = ref("wien");
+const cities = ["wien", "linz", "salzburg", "graz", "innsbruck"];
 function setCity(city) {
   activeCity.value = city;
 }

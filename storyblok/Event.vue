@@ -29,7 +29,7 @@
       {{ blok.description }}
     </h5>
     <div @click="toggleMore"  class="flex cursor-pointer">
-    <h4 class="text-xl uppercase text-orange my-4">more</h4><img src="../icons/chevron.svg" class="w-6 mx-4" :class="{'rotate-180':!isVisible}"></img>
+    <h4 class="text-xl uppercase text-orange my-4">mehr</h4><img src="../icons/chevron.svg" class="w-6 mx-4" :class="{'rotate-180':!isVisible}"></img>
   </div>
     <h5 v-show="isVisible" class="font-light text-lg">
       {{ blok.more }}
@@ -45,13 +45,13 @@ const dayOfMonth = date.getDate();
 const month = date.getMonth() + 1;
 const weekday = date.getDay();
 const weekdays = [
-  "Sunday",
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
-  "Friday",
-  "Saturday",
+  "Sonntag",
+  "Montag",
+  "Dienstag",
+  "Mittwoch",
+  "Donnerstag",
+  "Freitag",
+  "Samstag",
 ];
 const weekdayName = weekdays[weekday];
 // Get the hour and minute

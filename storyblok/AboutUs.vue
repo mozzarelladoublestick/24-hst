@@ -1,7 +1,7 @@
 <template>
   <div v-editable="blok" class="flex flex-col md:flex-row container justify-center">
     <div class="flex flex-col md:mx-6">
-      <h2 class="text-orange font-extrabold text-2xl md:text-4xl mb-4">
+      <h2 class="text-orange font-extrabold text-2xl md:text-3xl mb-4">
         {{ blok.headline }}
       </h2>
       <h5 class="font-extralight mb-4 text-lg md:text-xl">

@@ -20,3 +20,7 @@ html {
 select {
   @apply bg-black m-4 p-4 border-none text-xl;
 }
+
+h5 {
+  font-family: "Work Sans";
+}
