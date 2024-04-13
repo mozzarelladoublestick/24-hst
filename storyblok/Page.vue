@@ -27,10 +27,10 @@
       <div class="text-sm mt-96">
         <h5 class="font-bold">Impressum</h5>
         <h5>ÖSM - Christen an der Uni</h5>
-        <h5>Brunnhausgasse 21/4</h5>
-        <h5>5020 Salzburg</h5>
-        <h5>thomas.hagmueller@oesm.at</h5>
-        <a href="https://www.oesm.at"><h5>thomas.hagmueller@oesm.at</h5></a>
+        <!-- <h5>Brunnhausgasse 21/4</h5> -->
+        <!-- <h5>5020 Salzburg</h5> -->
+        <!-- <h5>thomas.hagmueller@oesm.at</h5> -->
+        <a href="https://www.oesm.at"><h5>www.oesm.at</h5></a>
       </div>
       <h3 class="text-xs mt-12">&copy; All Rights Reserved 2024</h3>
     </div>
