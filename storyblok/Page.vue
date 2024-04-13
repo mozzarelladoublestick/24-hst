@@ -1,5 +1,9 @@
 <template>
-  <div v-editable="blok" class="relative map">
+  <div
+    v-editable="blok"
+    class="relative map"
+    :class="{ 'overflow-hidden': showMenu }"
+  >
     <Navigation></Navigation>
     <img
       v-show="!showMenu"
@@ -20,6 +24,15 @@
       <h4 @click="goTo('#events')" class="my-4">EVENTS</h4>
       <h4 @click="goTo('#speaker')" class="my-4">SPEAKER</h4>
       <h4 @click="goTo('#aboutus')" class="my-4">ÜBER UNS</h4>
+      <div class="text-sm mt-96">
+        <h5 class="font-bold">Impressum</h5>
+        <h5>ÖSM - Christen an der Uni</h5>
+        <h5>Brunnhausgasse 21/4</h5>
+        <h5>5020 Salzburg</h5>
+        <h5>thomas.hagmueller@oesm.at</h5>
+        <a href="https://www.oesm.at"><h5>thomas.hagmueller@oesm.at</h5></a>
+      </div>
+      <h3 class="text-xs mt-12">&copy; All Rights Reserved 2024</h3>
     </div>
     <StoryblokComponent
       v-for="blok in blok.body"

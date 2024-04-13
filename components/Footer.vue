@@ -1,18 +1,20 @@
 <template>
   <div
-    class="mt-24 h-44 flex justify-between items-center bg-orange text-white"
+    class="mt-24 h-auto flex flex-col md:flex-row justify-between items-center bg-orange text-white"
   >
-    <div class="ml-8">
-      <h5 class="font-bold">ÖSM - Christen an der Uni</h5>
-      <h5>Adresszeile 1</h5>
-      <h5>1234 Postleitzahl</h5>
-      <h5>Kontaktinformationen</h5>
+    <div class="hidden md:block ml-8 my-12">
+      <h5 class="font-bold">Impressum</h5>
+      <h5>ÖSM - Christen an der Uni</h5>
+      <h5>Brunnhausgasse 21/4</h5>
+      <h5>5020 Salzburg</h5>
+      <h5>thomas.hagmueller@oesm.at</h5>
+      <a href="https://www.oesm.at"><h5>www.oesm.at</h5></a>
     </div>
-    <div class="flex text-4xl">
+    <div class="flex text-xl md:text-4xl my-4 md:my-12">
       <a>@oesm_</a>
       <p id="socials">austria</p>
     </div>
-    <h3 class="mr-8">&copy; All Rights Reserved 2024</h3>
+    <h3 class="mr-8 hidden md:block my-12">&copy; All Rights Reserved 2024</h3>
   </div>
 </template>
 <script setup>
