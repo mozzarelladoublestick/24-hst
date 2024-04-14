@@ -22,9 +22,9 @@
       class="bg-orange absolute text-2xl h-full w-screen z-40 overflow-hidden p-12"
     >
       <h4 @click="goTo('#events')" class="my-4">EVENTS</h4>
-      <h4 @click="goTo('#speaker')" class="my-4">SPEAKER</h4>
-      <h4 @click="goTo('#aboutus')" class="my-4">ÜBER UNS</h4>
-      <div class="text-sm mt-80">
+      <h4 @click="goTo('#speaker')" class="my-4">REDNER</h4>
+      <h4 @click="goTo('#aboutus')" class="my-4">WER WIR SIND</h4>
+      <div class="text-sm mt-60">
         <h5 class="font-bold">Impressum</h5>
         <h5>ÖSM - Christen an der Uni</h5>
         <h5>Leitenweg 7</h5>
