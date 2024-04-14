@@ -4,7 +4,7 @@
     class="container flex flex-col justify-center items-center max-w-5xl mx-auto text-center py-24 relative"
   >
     <div
-      class="absolute w-px h-24 md:h-44 bg-white top-16 md:top-6 inset-6 md:inset-1/4"
+      class="absolute w-px h-24 md:h-44 bg-white top-16 md:top-6 inset-0 md:inset-44"
     >
       <div
         class="w-3 h-3 bg-white rounded-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
@@ -12,7 +12,7 @@
     </div>
 
     <div class="flex mb-8">
-      <h1 class="text-4xl md:text-8xl text-white font-bold pr-8 md:pr-12">
+      <h1 class="text-4xl md:text-8xl text-white font-bold ml-6 md:ml-0 pr-8 md:pr-12">
         {{ dayOfMonth }}.{{ month }}
       </h1>
       <div class="flex flex-col justify-center text-left">
@@ -29,7 +29,7 @@
       {{ blok.description }}
     </h5>
     <div @click="toggleMore"  class="flex cursor-pointer">
-    <h4 class="text-xl uppercase text-orange my-4">mehr</h4><img src="../icons/chevron.svg" class="w-6 mx-4" :class="{'rotate-180':!isVisible}"></img>
+    <h4 v-if="blok.more != ''" class="text-xl uppercase text-orange my-4">mehr</h4><img v-if="blok.more != ''" src="../icons/chevron.svg" class="w-6 mx-4" :class="{'rotate-180':!isVisible}"></img>
   </div>
     <h5 v-show="isVisible" class="font-light text-xl">
       {{ blok.more }}

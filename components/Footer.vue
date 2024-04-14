@@ -5,10 +5,11 @@
     <div class="hidden md:block ml-8 my-12">
       <h5 class="font-bold">Impressum</h5>
       <h5>ÖSM - Christen an der Uni</h5>
-      <!-- <h5>Brunnhausgasse 21/4</h5> -->
-      <!-- <h5>5020 Salzburg</h5> -->
-      <!-- <h5>thomas.hagmueller@oesm.at</h5> -->
-      <a href="https://www.oesm.at"><h5>www.oesm.at</h5></a>
+      <h5>Leitenweg 7</h5>
+      <h5>5113 St. Georgen</h5>
+      <h5>ZVR-Zahl: 286541861</h5>
+      <h5><a href="mailto:web@oesm.at">web@oesm.at</a></h5>
+      <a class="underline" href="https://www.oesm.at"><h5>www.oesm.at</h5></a>
     </div>
     <div class="flex text-xl md:text-4xl my-4 md:my-12">
       <a>@oesm_</a>

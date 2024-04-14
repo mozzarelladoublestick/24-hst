@@ -24,13 +24,14 @@
       <h4 @click="goTo('#events')" class="my-4">EVENTS</h4>
       <h4 @click="goTo('#speaker')" class="my-4">SPEAKER</h4>
       <h4 @click="goTo('#aboutus')" class="my-4">ÜBER UNS</h4>
-      <div class="text-sm mt-96">
+      <div class="text-sm mt-80">
         <h5 class="font-bold">Impressum</h5>
         <h5>ÖSM - Christen an der Uni</h5>
-        <!-- <h5>Brunnhausgasse 21/4</h5> -->
-        <!-- <h5>5020 Salzburg</h5> -->
-        <!-- <h5>thomas.hagmueller@oesm.at</h5> -->
-        <a href="https://www.oesm.at"><h5>www.oesm.at</h5></a>
+        <h5>Leitenweg 7</h5>
+        <h5>5113 St. Georgen</h5>
+        <h5>ZVR-Zahl: 286541861</h5>
+        <h5><a href="mailto:web@oesm.at">web@oesm.at</a></h5>
+        <a class="underline" href="https://www.oesm.at"><h5>www.oesm.at</h5></a>
       </div>
       <h3 class="text-xs mt-12">&copy; All Rights Reserved 2024</h3>
     </div>
@@ -44,6 +45,17 @@
 </template>
 
 <script setup>
+useHead({
+  title: "Lost & Found by ÖSM",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Das Lost & Found Event der ÖSM ist ein Projekt, das an verschiedenen Hochschulen, Universitäten und Fachhochschulen im April und Mai 2024 stattfindet. Dabei werden die Themen Zukunft, Erfolg und Identität aus einer christlichen Perspektive beleuchtet.",
+    },
+  ],
+});
+
 defineProps({ blok: Object });
 import { gsap } from "gsap";
 import { MotionPathPlugin } from "gsap/MotionPathPlugin";
