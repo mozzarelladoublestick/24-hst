@@ -1,4 +1,11 @@
 <template>
+  <Script
+    id="Cookiebot"
+    src="https://consent.cookiebot.com/uc.js"
+    data-cbid="011a65ce-38f7-49b0-af05-385dd5a5dc7c"
+    data-blockingmode="auto"
+    type="text/javascript"
+  />
   <div
     v-editable="blok"
     class="relative map"
