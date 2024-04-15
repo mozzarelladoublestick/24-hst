@@ -12,6 +12,7 @@
     <div
       class="container uppercase text-4xl md:text-8xl text-white font-bold text-center z-30 relative"
     >
+      <h1 class="hidden">LOST & FOUND 2024</h1>
       <h1>{{ blok.headline }}</h1>
       <p class="my-2 z-30" id="scramble">{{ blok.word_1 }}</p>
     </div>
