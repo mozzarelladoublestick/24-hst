@@ -11,5 +11,14 @@ export default defineNuxtConfig({
       },
     ],
     "@nuxtjs/tailwindcss",
+    ["@nuxtjs/seo"],
   ],
+  site: {
+    url: "https://lost-found.at",
+    name: "Lost &  Found von ÖSM",
+    description:
+      "Das Lost & Found Event der ÖSM ist ein Projekt, das an verschiedenen Hochschulen, Universitäten und Fachhochschulen im April und Mai 2024 stattfindet. Dabei werden die Themen Zukunft, Erfolg und Identität aus einer christlichen Perspektive beleuchtet.",
+    defaultLocale: "de",
+    indexable: false,
+  },
 });
