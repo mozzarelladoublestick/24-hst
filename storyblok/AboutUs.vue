@@ -14,11 +14,10 @@
         {{ blok.buttontext }}
       </a>
     </div>
-    <NuxtImg
+    <img
       :src="blok.image.filename"
       class="w-full md:w-1/2 md:mx-6 object-cover filter grayscale"
-      format="webp"
-    ></NuxtImg>
+    ></img>
   </div>
 </template>
 
