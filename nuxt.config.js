@@ -12,6 +12,7 @@ export default defineNuxtConfig({
     ],
     "@nuxtjs/tailwindcss",
     ["@nuxtjs/seo"],
+    "@nuxt/image",
   ],
   site: {
     url: "https://lost-found.at",
