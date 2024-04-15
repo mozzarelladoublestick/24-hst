@@ -12,6 +12,7 @@ export default defineNuxtConfig({
     ],
     "@nuxtjs/tailwindcss",
     ["@nuxtjs/seo"],
+    ["@nuxtjs/sitemap"],
     "@nuxt/image",
   ],
   site: {
