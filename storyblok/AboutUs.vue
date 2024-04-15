@@ -1,5 +1,8 @@
 <template>
-  <div v-editable="blok" class="flex flex-col md:flex-row container justify-center">
+  <div
+    v-editable="blok"
+    class="flex flex-col md:flex-row container justify-center"
+  >
     <div class="flex flex-col md:mx-6">
       <h2 class="text-orange font-extrabold text-2xl md:text-3xl mb-4">
         {{ blok.headline }}
@@ -11,15 +14,18 @@
         {{ blok.buttontext }}
       </a>
     </div>
-    <img :src="blok.image.filename" class="w-full md:w-1/2 md:mx-6 object-cover filter grayscale"></img>
+    <NuxtImg
+      :src="blok.image.filename"
+      class="w-full md:w-1/2 md:mx-6 object-cover filter grayscale"
+      format="webp"
+    ></NuxtImg>
   </div>
 </template>
 
 <script setup>
-const props=defineProps({ blok: Object });
-const url=ref("");
+const props = defineProps({ blok: Object });
+const url = ref("");
 onMounted(() => {
-url.value=props.blok.link.url;
-console.log(url.value);
+  url.value = props.blok.link.url;
 });
 </script>
