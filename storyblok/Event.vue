@@ -15,10 +15,10 @@
       <h1 class="text-4xl md:text-8xl text-white font-bold ml-6 md:ml-0 pr-8 md:pr-12">
         {{ dayOfMonth }}.{{ month }}
       </h1>
-      <div class="flex flex-col justify-center text-left">
-        <p>{{ weekdayName }}</p>
+      <div class="flex flex-col justify-center text-left max-w-80">
+       <div class="flex"> <p>{{ weekdayName }}, {{ formattedTime }} Uhr</p></div>
         <p>{{ blok.location }}</p>
-        <p>{{ formattedTime }}</p>
+  
       </div>
     </div>
 

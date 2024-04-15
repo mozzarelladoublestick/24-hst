@@ -1,7 +1,7 @@
 <template>
   <div
     v-editable="blok"
-    class="flex md:flex-row flex-col justify-center items-center containers my-32"
+    class="flex md:flex-row flex-col justify-center md:items-center containers my-32"
   >
     <div class="flex flex-col mx-6">
       <h3
