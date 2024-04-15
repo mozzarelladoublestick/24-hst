@@ -5,6 +5,7 @@
   >
     <img
       src="../icons/2024-03_oesm_hst24_logo_2c-weiss-rot.svg"
+      alt="Lost & Found Logo"
       class="absolute left-4 md:left-1/3 z-0 w-64 md:w-96 top-6 md:top-20"
     />
 

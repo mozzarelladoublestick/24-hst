@@ -1,7 +1,7 @@
 <template>
   <div v-editable="blok" id="speaker" class="flex md:flex-row flex-col items-center justify-center gap-6 my-24 container">
     
-    <img :src="blok.image.filename" class="h-48 w-48 border-b border-white filter grayscale object-cover"></img>
+    <img :src="blok.image.filename" alt="Redner Foto" class="h-48 w-48 border-b border-white filter grayscale object-cover"></img>
     <div class="flex flex-col items-center md:items-start ">
     <h2 class="text-2xl md:text-4xl text-white font-medium  max-w-5xl text-center md:text-left md:w-24">
       {{ blok.name }}
