@@ -63,7 +63,6 @@ const formattedTime = `${hour.toString().padStart(2, "0")}.${minute
   .toString()
   .padStart(2, "0")}`;
 
-console.log(dayOfMonth);
 function toggleMore() {
   isVisible.value = true ? !isVisible.value : false;
 }

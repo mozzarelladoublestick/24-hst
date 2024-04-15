@@ -20,7 +20,7 @@
 
 <script setup>
 const props = defineProps({ blok: Object });
-console.log(props.blok.word_1);
+
 import { onMounted, onUnmounted, ref } from "vue";
 import { gsap } from "gsap";
 
