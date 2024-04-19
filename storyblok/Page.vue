@@ -86,8 +86,8 @@
         und Widerspruch zu. Wenn Sie glauben, dass die Verarbeitung Ihrer Daten
         gegen das Datenschutzrecht verstößt oder Ihre datenschutzrechtlichen
         Ansprüche sonst in einer Weise verletzt worden sind, können Sie sich bei
-        uns oder der Datenschutzbehörde beschweren. Sie erreichen uns unter
-        folgenden Kontaktmöglichkeiten
+        uns oder der Datenschutzbehörde beschweren. Sie erreichen uns unter den
+        im Impressum angeführten Kontaktmöglichkeiten.
       </p>
     </div>
 
