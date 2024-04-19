@@ -34,7 +34,7 @@
         <a class="underline" href="https://www.oesm.at"><h5>www.oesm.at</h5></a>
       </div>
       <h3 class="text-xs mt-12">&copy; All Rights Reserved 2024</h3>
-      <p>
+      <p class="text-xs mt-6">
         Medieninhaber Für den Inhalt und Design verantwortlich: Verein:
         Österreichische Studentenmission – Christen an der Uni (ÖSM) ZVR-Zahl:
         286541861 Inhalt Diese Website dient der Darstellung und Bewerbung der
