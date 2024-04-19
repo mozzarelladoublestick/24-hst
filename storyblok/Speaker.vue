@@ -16,7 +16,7 @@
         {{ blok.name }}
       </h2>
       <h5
-        class="text-lg md:text-2xl mt-4 font-extralight max-w-2xl text-center md:text-left mb-2"
+        class="text-lg md:text-2xl mt-4 font-extralight max-w-xl text-center md:text-left mb-2"
       >
         {{ blok.description }}
       </h5>

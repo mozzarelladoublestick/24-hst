@@ -16,7 +16,7 @@
         {{ dayOfMonth }}.{{ month }}
       </h1>
       <div class="flex flex-col justify-center text-left max-w-80">
-       <div class="flex"> <p>{{ weekdayName }}, {{ formattedTime }} Uhr</p></div>
+       <div class="flex"> <p>{{ weekdayName }}, {{ formattedTime }}</p></div>
         <p>{{ blok.location }}</p>
   
       </div>
