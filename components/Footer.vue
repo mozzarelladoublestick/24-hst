@@ -10,13 +10,22 @@
       <h5>ZVR-Zahl: 286541861</h5>
       <h5><a href="mailto:web@oesm.at">web@oesm.at</a></h5>
       <a class="underline" href="https://www.oesm.at"><h5>www.oesm.at</h5></a>
+      <h5 class="mt-4 cursor-pointer" @click="openDataprivacy">
+        Datenschutzerklärung
+      </h5>
     </div>
     <div class="flex text-xl md:text-4xl my-4 md:my-12">
       <a>@oesm_</a>
       <p id="socials">austria</p>
     </div>
-    <h3 class="mr-8 hidden md:block my-12">&copy; All Rights Reserved 2024</h3>
+    <h3 class="mr-8 hidden md:block my-12">
+      &copy; Alle Rechte vorbehalten 2024
+    </h3>
   </div>
+  <Dataprivacy
+    v-if="open"
+    class="absolute bg-orange w-full overflow-hidden"
+  ></Dataprivacy>
 </template>
 <script setup>
 import { onMounted, onUnmounted, ref } from "vue";
@@ -59,5 +68,9 @@ function scramble(word) {
     text: word,
     ease: "none",
   });
+}
+const open = ref(false);
+function openDataprivacy() {
+  open.value = !open.value;
 }
 </script>

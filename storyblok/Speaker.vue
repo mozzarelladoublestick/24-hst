@@ -11,12 +11,12 @@
     ></img>
     <div class="flex flex-col items-center md:items-start">
       <h2
-        class="text-2xl md:text-4xl text-white font-medium max-w-5xl text-center md:text-left md:w-24"
+        class="text-2xl md:text-4xl text-white font-medium text-center md:text-left "
       >
         {{ blok.name }}
       </h2>
       <h5
-        class="text-lg md:text-2xl mt-4 font-extralight max-w-xl text-center md:text-left mb-2"
+        class="text-lg md:text-xl mt-4 font-extralight max-w-xl text-center md:text-left mb-2"
       >
         {{ blok.description }}
       </h5>
