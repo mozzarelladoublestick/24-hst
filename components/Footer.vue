@@ -15,7 +15,7 @@
       </h5>
     </div>
     <div class="flex text-xl md:text-4xl my-4 md:my-12">
-      <a>@oesm_</a>
+      <a href="https://wwww.instagram.com/oesm_austria">@oesm_</a>
       <p id="socials">austria</p>
     </div>
     <h3 class="mr-8 hidden md:block my-12">
