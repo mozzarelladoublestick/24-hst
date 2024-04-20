@@ -7,9 +7,12 @@
       Diese Website dient der Darstellung und Bewerbung der Hochschultage –
       einer nicht-kommerziellen Veranstaltung von und für Studenten. Darüber
       hinaus werden Gedankenanstöße zu weltanschaulichen Themen, insbesondere
-      mit christlichem Bezug dargestellt. Haftungsausschluss Der Medieninhaber
-      übernimmt keinerlei Gewähr für die Aktualität, Korrektheit, oder
-      Vollständigkeit der bereitgestellten Informationen.
+      mit christlichem Bezug dargestellt.
+    </h5>
+    <h5 class="font-bold">Haftungsausschluss</h5>
+    <h5>
+      Der Medieninhaber übernimmt keinerlei Gewähr für die Aktualität,
+      Korrektheit, oder Vollständigkeit der bereitgestellten Informationen.
     </h5>
     <h5 class="font-bold">Datenschutzerklärung</h5>
     <h5>
