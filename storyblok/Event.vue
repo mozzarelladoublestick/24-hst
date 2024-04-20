@@ -4,7 +4,7 @@
     class="container flex flex-col justify-center items-center max-w-5xl mx-auto text-center py-24 relative"
   >
     <div
-      class="absolute w-px h-24 md:h-44 bg-white top-16 md:top-6 inset-0 md:inset-44"
+      class="absolute w-px h-24 md:h-44 bg-white top-16 xl:top-6 inset-0 md:inset-24 xl:inset-44"
     >
       <div
         class="w-3 h-3 bg-white rounded-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
