@@ -2,7 +2,7 @@
   <div
     class="mt-24 h-auto flex flex-col md:flex-row justify-between items-center bg-orange text-white"
   >
-    <div class="hidden md:block ml-8 my-12">
+    <div class="hidden lg:block ml-8 my-12">
       <h5 class="font-bold">Impressum</h5>
       <h5>ÖSM - Christen an der Uni</h5>
       <h5>Leitenweg 7</h5>

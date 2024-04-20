@@ -17,14 +17,14 @@
       @click="openMenu"
       alt="open"
       src="../icons/menu.svg"
-      class="absolute z-50 md:hidden right-4 w-8 top-6"
+      class="absolute z-50 lg:hidden right-4 w-8 top-6"
     />
     <img
       v-show="showMenu"
       @click="openMenu"
       alt="close"
       src="../icons/close.svg"
-      class="absolute z-50 md:hidden right-4 w-8 top-6"
+      class="absolute z-50 lg:hidden right-4 w-8 top-6"
     />
     <div
       v-if="showMenu"

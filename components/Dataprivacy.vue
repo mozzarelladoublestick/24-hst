@@ -1,5 +1,5 @@
 <template>
-  <div class="text-xs pt-24 md:p-8">
+  <div class="text-xs pt-6 md:pt-24 lg:p-4 xl:p-8">
     <h5 class="font-bold">Medieninhaber</h5>
     <h5>
       Für den Inhalt und Design verantwortlich: Verein: Österreichische

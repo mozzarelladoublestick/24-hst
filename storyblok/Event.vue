@@ -22,7 +22,7 @@
       </div>
     </div>
 
-    <h3 class="text-3xl md:text-7xl text-orange font-bold uppercase">
+    <h3 class="text-3xl md:px-12 md:text-5xl lg:text-7xl text-orange font-bold uppercase container text-balance break-words">
       {{ blok.title }}
     </h3>
     <h5 class="text-xl md:text-3xl font-extralight">

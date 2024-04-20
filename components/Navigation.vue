@@ -1,5 +1,5 @@
 <template>
-    <div class="hidden md:block absolute z-50 left-0 top-0 w-full">
+    <div class="hidden lg:block absolute z-50 left-0 top-0 w-full">
       <div class="flex justify-between items-center m-12 text-orange cursor-pointer">
         <div class="w-2/3">
         <img src="../icons/oesm_logo_white.svg" class="w-24"></img>
