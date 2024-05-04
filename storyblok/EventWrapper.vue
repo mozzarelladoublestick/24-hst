@@ -1,13 +1,15 @@
 <template>
   <div v-editable="blok" id="events">
     <div
-      class="relative md:flex mx-auto justify-between text-center text-extrabold uppercase text-orange items-center px-24 max-w-5xl"
     >
       <img
         src="../icons/compass.svg"
         class="icon absolute right-0 z-0 w-80 top-96 opacity-80"
       />
-      <select class="block md:hidden" @change="setCity($event.target.value)">
+      <select
+        class="block md:hidden text-left mx-auto px-auto"
+        @change="setCity($event.target.value)"
+      >
         <option
           v-for="city in cities"
           :value="city"
@@ -45,8 +47,8 @@
 <script setup>
 import { ref, computed } from "vue";
 const props = defineProps({ blok: Object });
-const activeCity = ref("wien");
-const cities = ["wien", "linz", "salzburg", "graz", "innsbruck"];
+const activeCity = ref("linz");
+const cities = ["linz", "salzburg", "graz", "wien", "innsbruck"];
 function setCity(city) {
   activeCity.value = city;
 }
@@ -70,5 +72,4 @@ onMounted(() => {
     // duration: 2,
   });
 });
-console.log(props.blok);
 </script>
