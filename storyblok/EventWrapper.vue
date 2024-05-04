@@ -1,10 +1,7 @@
 <template>
   <div v-editable="blok" id="events">
     <div
-<<<<<<< HEAD
-=======
       class="relative md:flex mx-auto justify-between text-center text-extrabold uppercase text-orange items-center px-auto md:px-24 max-w-5xl"
->>>>>>> main
     >
       <img
         src="../icons/compass.svg"
