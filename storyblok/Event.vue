@@ -4,7 +4,7 @@
     class="container flex flex-col justify-center items-center max-w-5xl mx-auto text-center py-24 relative"
   >
     <div
-      class="absolute w-px h-24 md:h-44 bg-white top-16 md:top-6 inset-0 md:inset-44"
+      class="absolute w-px h-24 md:h-44 bg-white top-16 xl:top-6 inset-0 md:inset-24 xl:inset-44"
     >
       <div
         class="w-3 h-3 bg-white rounded-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
@@ -15,14 +15,14 @@
       <h1 class="text-4xl md:text-8xl text-white font-bold ml-6 md:ml-0 pr-8 md:pr-12">
         {{ dayOfMonth }}.{{ month }}
       </h1>
-      <div class="flex flex-col justify-center text-left">
-        <p>{{ weekdayName }}</p>
+      <div class="flex flex-col justify-center text-left max-w-80">
+       <div class="flex"> <p>{{ weekdayName }}, {{ formattedTime }}</p></div>
         <p>{{ blok.location }}</p>
-        <p>{{ formattedTime }}</p>
+  
       </div>
     </div>
 
-    <h3 class="text-3xl md:text-7xl text-orange font-bold uppercase">
+    <h3 class="text-3xl md:px-12 md:text-5xl lg:text-7xl text-orange font-bold uppercase container text-balance break-words">
       {{ blok.title }}
     </h3>
     <h5 class="text-xl md:text-3xl font-extralight">
@@ -63,7 +63,6 @@ const formattedTime = `${hour.toString().padStart(2, "0")}.${minute
   .toString()
   .padStart(2, "0")}`;
 
-console.log(dayOfMonth);
 function toggleMore() {
   isVisible.value = true ? !isVisible.value : false;
 }
